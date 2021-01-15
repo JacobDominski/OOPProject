@@ -27,6 +27,7 @@ void introduction() {
 }
 
 int randomRoll(int min, int max) {
+	//not fully random
 	int random = (std::rand() % (max-min)) + min;
 	return random;
 }
